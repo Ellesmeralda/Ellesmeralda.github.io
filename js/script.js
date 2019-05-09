@@ -197,7 +197,7 @@ function getRandomInt(max) {
 
 function tombeSur (id) {
   //le nombre d'objets
-  nbFlocons = 35;
+  nbFlocons = 30;
   //la dimension de l'objet
   objectWidth = 40;
   objectHeight = 40;
