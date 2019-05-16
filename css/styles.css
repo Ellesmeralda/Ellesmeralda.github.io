@@ -1,11 +1,12 @@
 /* jeu */
 
 body{
-  background-color: black;
+  background-color: rgb(16,16,73)
+  ;
 }
 
 .scene{
-  background-color: black;
+  background-color:  rgb(16,16,73);
   width:1200px; height:800px;
   margin: 30px auto;
   position: relative;
@@ -28,10 +29,10 @@ body{
 
 }
 .personnage.gd{
-  background-color:black;
+  background-color: rgb(16,16,73);
 }
 .personnage.dg{
-  background-color: black;
+  background-color: rgb(16,16,73);
 }
 
 figure {
@@ -42,20 +43,20 @@ figure {
 
 .entete{
   height:150px;
-  background-color: rgb(60,100,240);
+  background-color:  rgb(16,16,73);
 }
 
 .menu{
   display: inline-block;
   width:100%;
-  background-color: rgb(60, 100, 240);
+  background-color: rgb(16,16,73);
   vertical-align: top;
 }
 
 .contenu{
   display: inline-block;
   width:75%;
-  background-color: rgb(0,0,0);
+  background-color: rgb(16,16,73);
   vertical-align: top;
 }
 
