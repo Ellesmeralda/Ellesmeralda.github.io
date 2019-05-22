@@ -2,7 +2,7 @@
 
 body{
   background-color: rgb(16,16,73);
-  overflow: hidden; /*a enlever pour pouvoir scroller la page*/
+  /*overflow: hidden; /*a enlever pour pouvoir scroller la page*/
 }
 
 .scene{
@@ -52,22 +52,31 @@ figure {
 }
 
 .crane>img{
-  top: 450px;
-  left: 360px;
-  width: 350px;
+  top: 560px;
+  left: 400px;
+  width: 300px;
   position: absolute;
 }
 
 .dragon>img{
-  width: 350px;
+  top: 2100px;
+  left: 1250px;
+  width: 300px;
+  position: absolute;
 }
 
 .lutin>img{
-  width: 350px;
+  top: 1170px;
+  left: 980px;
+  width: 300px;
+  position: absolute;
 }
 
 .tetes>img{
-  width: 350px;
+  top: 1600px;
+  left: 100px;
+  width: 300px;
+  position: absolute;
 }
 
 .contenu{
