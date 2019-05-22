@@ -109,6 +109,8 @@ function verifPosEtBougeCoeur() {
   }
 }
 
+window.onwheel = function() {return false;}
+
 var animate = function () {
   coeur.children[0].src = 'img/Coeur' + vitesse + '.png';
 

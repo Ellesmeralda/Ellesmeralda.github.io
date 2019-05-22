@@ -1,8 +1,8 @@
 /* jeu */
 
 body{
-  background-color: rgb(16,16,73)
-  ;
+  background-color: rgb(16,16,73);
+  overflow: hidden;
 }
 
 .scene{
