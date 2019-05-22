@@ -60,7 +60,7 @@ figure {
   vertical-align: top;
 }
 
-.canard{
+.coeur{
   position:absolute;
   top:100px;
   left: 150px;
@@ -68,6 +68,6 @@ figure {
   width: 100px;
   height: 100px;
 }
-.canard img{
+.coeur img{
   max-width: 100%;
 }
