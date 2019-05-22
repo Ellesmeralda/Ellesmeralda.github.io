@@ -2,14 +2,12 @@
 
 body{
   background-color: rgb(16,16,73);
-  overflow: hidden;
 }
 
 .scene{
   background-color:  rgb(16,16,73);
-  width:1200px; height:800px;
-  margin: 30px auto;
   position: relative;
+  border: 200px, red;
 }
 
 .fond{
@@ -23,7 +21,6 @@ body{
 .personnage{
   z-index: 2;
   background-color: transparent;
-  width:600px; height:500px;
 
   position: relative;
 
@@ -51,6 +48,25 @@ figure {
   width:100%;
   background-color: rgb(16,16,73);
   vertical-align: top;
+}
+
+.crane>img{
+  top: 450px;
+  left: 360px;
+  width: 350px;
+  position: absolute;
+}
+
+.dragon>img{
+  width: 350px;
+}
+
+.lutin>img{
+  width: 350px;
+}
+
+.tetes>img{
+  width: 350px;
 }
 
 .contenu{
