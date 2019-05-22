@@ -1,5 +1,4 @@
 var coeur = document.querySelector('.coeur');
-console.log(coeur);
 
 var screenW = window.innerWidth;
 var screenH = window.innerHeight;
@@ -111,6 +110,7 @@ function verifPosEtBougeCoeur() {
 
 window.onwheel = function() {return false;}
 
+tombeSur();
 var animate = function () {
   coeur.children[0].src = 'img/Coeur' + vitesse + '.png';
 
@@ -119,6 +119,7 @@ var animate = function () {
   coeur.style.left = pos_gauche_perso + 'px';
   coeur.style.top = pos_top_perso + 'px';
 
+  tombe();
   window.requestAnimationFrame(animate);
 }
 window.requestAnimationFrame(animate);
@@ -195,15 +196,15 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max)) + 1;
 }
 
-function tombeSur(id) {
+function tombeSur() {
   //le nombre d'objets
-  nbFlocons = 30;
+  nbFlocons = 10;
   //la dimension de l'objet
   objectWidth = 40;
   objectHeight = 40;
   //dimension de la zone
-  largeurF = parseInt(document.getElementById(id).style.width.substr(0, document.getElementById(id).style.width.length - 2));
-  hauteurF = parseInt(document.getElementById(id).style.height.substr(0, document.getElementById(id).style.height.length - 2));
+  largeurF = screenW;
+  hauteurF = screenH;
   largeurF -= objectWidth;
   hauteurF -= objectHeight;
   flocons = new Array();
@@ -213,12 +214,12 @@ function tombeSur(id) {
     flocons[i]["top"] = Math.floor(Math.random() * hauteurF);
     flocons[i]["scale"] = getRandomInt(3);
 
-    document.write('<span id="f' + i + '" style="position: absolute; left: ' + flocons[i]["left"] + 'px; top: ' + flocons[i]["top"] + 'px; color: white">');
+    document.write('<span id="f' + i + '" style="position: fixed; left: ' + flocons[i]["left"] + 'px; top: ' + flocons[i]["top"] + 'px; color: white">');
     //l'objet qui tombe
 
     document.write('<img src="img/flocon.gif" width="' + (20 * flocons[i]["scale"]) + '" height="' + (20 * flocons[i]["scale"]) + '">');
     document.write('</span>');
   }
 
-  intervalF = window.setInterval("tombe()", 50);
+  //intervalF = window.setInterval("tombe()", 50);
 }
