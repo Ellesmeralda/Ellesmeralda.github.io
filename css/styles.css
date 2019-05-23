@@ -2,7 +2,7 @@
 
 body{
   background-color: rgb(16,16,73);
-  /*overflow: hidden; /*a enlever pour pouvoir scroller la page*/
+  overflow: hidden; /*a enlever pour pouvoir scroller la page*/
 }
 
 .scene{
