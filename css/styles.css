@@ -1,99 +1,140 @@
-/* jeu */
+body {
+  background-color: #d1da0d;
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: pink;
+  background-color: purple }
+  ul.navbar {
+    list-style-type: none;
+  padding: 0;
+  margin: ;
+   position: absolute;
+   top: 4em;
+   left: 1em;
+   width: 8em;
+   background-color: #FEDDF6; }
+  h1 {
+   font-family: Helvetica, Geneva, Arial,
+         SunSans-Regular, sans-serif }
+         ul.navbar li {
+  background: pink;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid red }
+  h2 {
+   font-family: "Helvetica neue", sans-serif;
+   font-size: 70%;
+ }
+  h3 {
+    top: 125px;
+    left: 1080px;
+    position: absolute;
+}
+  p {
+   font-family: "Helvetica neue", sans-serif;
+   font-size: 80%;
+ }
 
-body{
-  background-color: rgb(16,16,73);
-  overflow: hidden; /*a enlever pour pouvoir scroller la page*/
-}
+ h5{
+   font-family: Georgia, "Times New Roman",Times, serif;
+   top: 650px;
+   left: 830px;
+   font-size: 1.4em;
+   position: absolute;
+ }
 
-.scene{
-  background-color:  rgb(16,16,73);
-  position: relative;
-  border: 200px, red;
-}
-
-.fond{
-  position:absolute;
-  /* z-index: 4; */
-}
-
-.fond img{
-  width:150%;
-}
-.personnage{
-  z-index: 2;
-  background-color: transparent;
-
-  position: relative;
-
-}
-.personnage.gd{
-  background-color: rgb(16,16,73);
-}
-.personnage.dg{
-  background-color: rgb(16,16,73);
-}
-
-figure {
-    margin: 0;
-}
-/* mise en page */
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: purple }
+a:visited {
+  color: black }
+  address {
+   margin-top: 3em;
+   padding-top: 1em;
+   border-top: thin dotted }
 
 
-.entete{
-  height:150px;
-  background-color:  rgb(16,16,73);
-}
+   }
+   .personnage{
+     background-color: rgb(16,16,73);
+     z-index: 2;
+     background-color: transparent;
 
-.menu{
-  display: inline-block;
-  width:100%;
-  background-color: rgb(16,16,73);
-  vertical-align: top;
-}
+     position: relative;
+   }
 
-.crane>img{
-  top: 560px;
-  left: 400px;
-  width: 300px;
-  position: absolute;
-}
+   .intro{
+     height:150px;
+     background-color:  rgb(16,16,73);
+     left:200px;
+     position:absolute;
+   }
 
-.dragon>img{
-  top: 2100px;
-  left: 1250px;
-  width: 300px;
-  position: absolute;
-}
+   .signature{
+     position: absolute;
+     top: 12em;
+     left: 1em;
+     width: 8em
+   }
 
-.lutin>img{
-  top: 1170px;
-  left: 980px;
-  width: 300px;
-  position: absolute;
-}
+   .PereNoel{
+     position: absolute;
+     top: 100px;
+     left: 300px;
+     width: 1080px;
+   }
 
-.tetes>img{
-  top: 1600px;
-  left: 100px;
-  width: 300px;
-  position: absolute;
-}
+   .je{
+     position: absolute;
+     top: 10px;
+     left: 220px;
+     width: 1080px;
+   }
 
-.contenu{
-  display: inline-block;
-  width:75%;
-  background-color: rgb(16,16,73);
-  vertical-align: top;
-}
+   .cv>img{
+     top: 250px;
+     left: 200px;
+     width: 80%;
+     position: absolute;
+   }
+   .fromage>img{
+     top: 700px;
+     left: 400px;
+     width: 300px;
+     position: absolute;
+   }
 
-.coeur{
-  position:absolute;
-  top:100px;
-  left: 150px;
-  z-index: 10;
-  width: 100px;
-  height: 100px;
-}
-.coeur img{
-  max-width: 100%;
-}
+   .oeil>img{
+     top: 125px;
+     left: 1080px;
+     width: 700px;
+     position: absolute;
+   }
+
+
+   .gif>img{
+     width:75%;
+     left: 200px;
+     position: absolute;
+   }
+   .tatou>img{
+     top: 850px;
+     left: 800px;
+     width: 500px;
+     position: absolute;
+   }
+
+   .design>img{
+     top: 80px;
+     left: 200px;
+     width: 80%;
+     position: absolute;
+   }
+   .chance>img{
+     top: 250px;
+     left: 400px;
+     width: 400px;
+     position: absolute;
+   }
