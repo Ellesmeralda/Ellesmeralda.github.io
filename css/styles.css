@@ -4,7 +4,8 @@ body {
   font-family: Georgia, "Times New Roman",
         Times, serif;
   color: pink;
-  background-color: purple }
+  background-color: black }
+
   ul.navbar {
     list-style-type: none;
   padding: 0;
@@ -12,13 +13,13 @@ body {
    position: absolute;
    top: 4em;
    left: 1em;
-   width: 8em;
-   background-color: #FEDDF6; }
+   width: 8em;}
+
   h1 {
    font-family: Helvetica, Geneva, Arial,
          SunSans-Regular, sans-serif }
          ul.navbar li {
-  background: pink;
+  background: white;
   margin: 0.5em 0;
   padding: 0.3em;
   border-right: 1em solid red }
@@ -56,85 +57,8 @@ a:visited {
    border-top: thin dotted }
 
 
-   }
-   .personnage{
-     background-color: rgb(16,16,73);
-     z-index: 2;
-     background-color: transparent;
-
-     position: relative;
-   }
-
-   .intro{
-     height:150px;
-     background-color:  rgb(16,16,73);
-     left:200px;
-     position:absolute;
-   }
-
-   .signature{
-     position: absolute;
-     top: 12em;
-     left: 1em;
-     width: 8em
-   }
-
-   .PereNoel{
-     position: absolute;
-     top: 100px;
-     left: 300px;
-     width: 1080px;
-   }
-
-   .je{
-     position: absolute;
-     top: 10px;
-     left: 220px;
-     width: 1080px;
-   }
-
-   .cv>img{
-     top: 250px;
-     left: 200px;
-     width: 80%;
-     position: absolute;
-   }
-   .fromage>img{
-     top: 700px;
-     left: 400px;
-     width: 300px;
-     position: absolute;
-   }
-
-   .oeil>img{
-     top: 125px;
-     left: 1080px;
-     width: 700px;
-     position: absolute;
-   }
-
-
-   .gif>img{
+   .tetes>img{
      width:75%;
-     left: 200px;
-     position: absolute;
-   }
-   .tatou>img{
-     top: 850px;
-     left: 800px;
-     width: 500px;
-     position: absolute;
-   }
-
-   .design>img{
-     top: 80px;
-     left: 200px;
-     width: 80%;
-     position: absolute;
-   }
-   .chance>img{
-     top: 250px;
-     left: 400px;
-     width: 400px;
+     left: 100px;
      position: absolute;
    }
