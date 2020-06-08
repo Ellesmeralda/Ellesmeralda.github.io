@@ -3,7 +3,7 @@ body {
   padding-left: 11em;
   font-family: Georgia, "Times New Roman",
         Times, serif;
-  color: pink;
+  color: white;
   background-color: black }
 
   ul.navbar {
@@ -48,9 +48,10 @@ body {
 ul.navbar a {
   text-decoration: none }
 a:link {
-  color: purple }
+  color: gre }
 a:visited {
-  color: black }
+  color: black;
+background-color: black}
   address {
    margin-top: 3em;
    padding-top: 1em;
@@ -58,7 +59,19 @@ a:visited {
 
 
    .tetes>img{
-     width:75%;
+     width:50%;
      left: 100px;
      position: absolute;
+   }
+
+   .signature {
+     width:100%;
+     top: 18000px;
+     left: 100px;
+     position: absolute;
+   }
+
+   .doublepage>img {
+     width: 80%;
+    left: 200px;
    }
