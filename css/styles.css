@@ -4,87 +4,93 @@ body {
   padding: 0;
   padding-left: 11em;
   font-family: Georgia, "Times New Roman",
-        Times, serif;
+    Times, serif;
   color: white;
-  background-color: black }
+  background-color: black
+}
 
-  ul.navbar {
-    list-style-type: none;
+ul.navbar {
+  list-style-type: none;
   padding: 0;
   margin: ;
-   position: absolute;
-   top: 4em;
-   left: 1em;
-   width: 8em;}
+  position: absolute;
+  top: 4em;
+  left: 1em;
+  width: 9em;
+}
 
-  h1 {
-   font-family: Helvetica, Geneva, Arial,
-         SunSans-Regular, sans-serif }
-         ul.navbar li {
-  background: white;
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif
+}
+
+ul.navbar li {
+  background: black;
   margin: 0.5em 0;
   padding: 0.3em;
-  border-right: 1em solid red }
-  h2 {
-   font-family: "Helvetica neue", sans-serif;
-   font-size: 70%;
- }
-  h3 {
-    top: 125px;
-    left: 1080px;
-    position: absolute;
+  border-right: 1em solid white
 }
-  p {
-   font-family: "Helvetica neue", sans-serif;
-   font-size: 80%;
- }
 
- h5{
-   font-family: Georgia, "Times New Roman",Times, serif;
-   top: 650px;
-   left: 830px;
-   font-size: 1.4em;
-   position: absolute;
- }
+h2 {
+  font-family: "Helvetica neue", sans-serif;
+  font-size: 70%;
+}
+
+h3 {
+  top: 125px;
+  left: 1080px;
+  position: absolute;
+}
+
+p {
+  font-family: "Helvetica neue", sans-serif;
+  font-size: 80%;
+}
+
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  top: 650px;
+  left: 830px;
+  font-size: 1.4em;
+  position: absolute;
+}
 
 ul.navbar a {
-  text-decoration: none }
+  text-decoration: none
+}
+
 a:link {
-  color: gre }
+  color: grey
+}
+
 a:visited {
-  color: black;
-background-color: black}
-  address {
-   margin-top: 3em;
-   padding-top: 1em;
-   border-top: thin dotted }
+  color: white;
+  background-color: black
+}
 
+address {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: thin dotted
+}
 
-   .tetes>img{
-     width:50%;
-     left: 100px;
-     position: absolute;
-   }
+.tetes>img {
+  width: 50%;
+  left: 100px;
+  position: absolute;
+}
 
-   .signature {
-     width:100%;
-     top: 12000px;
-     left: 100px;
-     position: absolute;
-   }
+.doublepage>img {
+  width: 80%;
+  left: 200px;
+}
 
-   .doublepage>img {
-     width: 80%;
-    left: 200px;
-   }
+.doublepageitem {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
 
-   .doublepageitem {
-      display: flex;
-      flex-direction: row;
-      margin: 20px 0;
-   }
-
-   .typo {
-     width: 10%
-
-   }
+.typo {
+  width: 10%
+}
