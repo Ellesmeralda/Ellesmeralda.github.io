@@ -1,5 +1,7 @@
 body {
   background-color: #d1da0d;
+  margin: 0;
+  padding: 0;
   padding-left: 11em;
   font-family: Georgia, "Times New Roman",
         Times, serif;
@@ -66,7 +68,7 @@ background-color: black}
 
    .signature {
      width:100%;
-     top: 18000px;
+     top: 12000px;
      left: 100px;
      position: absolute;
    }
@@ -74,4 +76,15 @@ background-color: black}
    .doublepage>img {
      width: 80%;
     left: 200px;
+   }
+
+   .doublepageitem {
+      display: flex;
+      flex-direction: row;
+      margin: 20px 0;
+   }
+
+   .typo {
+     width: 10%
+
    }
