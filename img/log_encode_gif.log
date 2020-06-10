@@ -1,0 +1,485 @@
+ffmpeg version 4.2.2 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20200122
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Nathaelle/AppData/Local/Temp/KritaFFmpegProgress.TvXygK'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '20'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/design1.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Nathaelle/AppData/Local/Temp/KritaFFmpegProgress.TvXygK.
+[file @ 000001dde7efb380] Setting default whitelist 'file,crypto'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 20.
+Successfully parsed a group of options.
+Opening an input file: D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png.
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0000.png' for reading
+[file @ 000001dde7f3eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde7f47080] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0001.png' for reading
+[file @ 000001dde9d5f080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9d5f200] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0002.png' for reading
+[file @ 000001dde9d5f100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9dfe640] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0003.png' for reading
+[file @ 000001dde9d5f100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9e9d680] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0004.png' for reading
+[file @ 000001dde9d5f100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9e9d840] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0005.png' for reading
+[file @ 000001dde9d5f100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9e9da00] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0006.png' for reading
+[file @ 000001dde9d5f100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9e9dbc0] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0007.png' for reading
+[file @ 000001dde9d5f100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9e9dd80] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png':
+  Duration: 00:00:03.64, start: 0.000000, bitrate: N/A
+    Stream #0:0, 8, 1/25: Video: png, 1 reference frame, rgba(pc), 4960x3508 [SAR 11811:11811 DAR 1240:877], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png.
+[NULL @ 000001ddee44b3c0] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png' for reading
+[file @ 000001dde9e9dd80] Setting default whitelist 'file,crypto'
+[png_pipe @ 000001ddee44b3c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000001ddee44b3c0] Before avformat_find_stream_info() pos: 0 bytes read:410 seeks:0 nb_streams:1
+[png_pipe @ 000001ddee44b3c0] After avformat_find_stream_info() pos: 410 bytes read:410 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/design1.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/design1.gif.
+[file @ 000001dde7f43380] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 22 times
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0008.png' for reading
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[file @ 000001dde9d5efc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde7f5c140] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0009.png' for reading
+[file @ 000001dde9d5efc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde7f5c140] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0010.png' for reading
+[file @ 000001dde9d5efc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001ddee66edc0] Statistics: 650753 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001dde7f3b800] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0011.png' for reading
+[file @ 000001dde9dfe5c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001ddee66edc0] Statistics: 650753 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0012.png' for reading
+[file @ 000001ddee4bb800] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001ddee66edc0] Statistics: 653923 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0013.png' for reading
+[file @ 000001ddee4bb800] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001ddee66edc0] Statistics: 653923 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+frame=    0 fps=0.0 q=0.0 size=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] Setting 'video_size' to value '4960x3508'
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] Setting 'time_base' to value '1/20'
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] Setting 'frame_rate' to value '20/1'
+[graph 0 input from stream 0:0 @ 000001ddee4bcc00] w:4960 h:3508 pixfmt:rgba tb:1/20 fr:20/1 sar:11811/11811 sws_param:flags=2
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000001ddee4bc100] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1 sws_param:flags=2
+[format @ 000001ddee4bcd00] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 000001ddee4bb500] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001ddee4bbb00] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000001ddee4bc500] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001ddee4bbb00] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000001dde7f55540] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000001ddee4f7880] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001ddee4bb500] w:4960 h:3508 fmt:rgba sar:11811/11811 -> w:4960 h:3508 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000001dde7f71740] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001ddee4bc500] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000001ddee4bbb00] [framesync @ 000001ddee8ec248] Selected 1/100 time base
+[Parsed_paletteuse_0 @ 000001ddee4bbb00] [framesync @ 000001ddee8ec248] Sync level 2
+Output #0, gif, to 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/design1.gif':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 4960x3508 [SAR 1:1 DAR 1240:877], 0/1, q=2-31, 200 kb/s, 20 fps, 100 tbn, 20 tbc (default)
+    Metadata:
+      encoder         : Lavc58.54.100 gif
+Clipping frame in rate conversion by 0.000008
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0014.png' for reading
+[file @ 000001ddee4bcb00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 658570 bytes read, 0 seeks
+frame=    1 fps=0.3 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.00288x    [gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    2 fps=0.4 q=-0.0 size=     110kB time=00:00:00.06 bitrate=14976.4kbits/s speed=0.0111x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0015.png' for reading
+[file @ 000001ddee4bcb00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 658570 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+[image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0016.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5c40] Statistics: 660883 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    4 fps=0.6 q=-0.0 size=     256kB time=00:00:00.16 bitrate=13107.2kbits/s speed=0.0226x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0017.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5dc0] Statistics: 660883 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    5 fps=0.6 q=-0.0 size=     256kB time=00:00:00.21 bitrate=9986.4kbits/s speed=0.0245x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0018.png' for reading
+[file @ 000001ddee4bb700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6300] Statistics: 667816 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    6 fps=0.6 q=-0.0 size=     512kB time=00:00:00.26 bitrate=16131.9kbits/s speed=0.024x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0019.png' for reading
+[file @ 000001ddee4bb700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 667816 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    7 fps=0.5 q=-0.0 size=     512kB time=00:00:00.31 bitrate=13530.0kbits/s speed=0.0243x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0020.png' for reading
+[file @ 000001ddee4bbf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5c40] Statistics: 669063 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    8 fps=0.6 q=-0.0 size=     512kB time=00:00:00.36 bitrate=11650.8kbits/s speed=0.0252x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0021.png' for reading
+[file @ 000001ddee4bb800] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 669063 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=    9 fps=0.6 q=-0.0 size=     768kB time=00:00:00.41 bitrate=15345.0kbits/s speed=0.0256x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0022.png' for reading
+[file @ 000001ddee4bcf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 663489 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=   10 fps=0.6 q=-0.0 size=     768kB time=00:00:00.46 bitrate=13677.1kbits/s speed=0.0259x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0023.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 663489 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=   11 fps=0.6 q=-0.0 size=     768kB time=00:00:00.51 bitrate=12336.2kbits/s speed=0.0266x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0024.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 661737 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1756 image at pos (0;1752) [area:4960x3508]
+frame=   12 fps=0.6 q=-0.0 size=    1024kB time=00:00:00.56 bitrate=14979.7kbits/s speed=0.0269x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0025.png' for reading
+[file @ 000001ddee4bc700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 661737 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1761 image at pos (0;1747) [area:4960x3508]
+frame=   13 fps=0.6 q=-0.0 size=    1024kB time=00:00:00.61 bitrate=13751.8kbits/s speed=0.027x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0026.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 658131 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1761 image at pos (0;1747) [area:4960x3508]
+frame=   14 fps=0.6 q=-0.0 size=    1280kB time=00:00:00.66 bitrate=15887.5kbits/s speed=0.0275x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0027.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5f00] Statistics: 658131 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1906 image at pos (0;1602) [area:4960x3508]
+frame=   15 fps=0.6 q=-0.0 size=    1280kB time=00:00:00.71 bitrate=14768.7kbits/s speed=0.0283x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0028.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 659498 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1906 image at pos (0;1602) [area:4960x3508]
+frame=   16 fps=0.6 q=-0.0 size=    1280kB time=00:00:00.76 bitrate=13797.1kbits/s speed=0.0286x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0029.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 659498 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1987 image at pos (0;1521) [area:4960x3508]
+frame=   17 fps=0.6 q=-0.0 size=    1536kB time=00:00:00.81 bitrate=15534.5kbits/s speed=0.0291x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0030.png' for reading
+[file @ 000001ddee4bce00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 655314 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1987 image at pos (0;1521) [area:4960x3508]
+frame=   18 fps=0.6 q=-0.0 size=    1536kB time=00:00:00.86 bitrate=14631.3kbits/s speed=0.0291x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0031.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 655314 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2078 image at pos (0;1430) [area:4960x3508]
+frame=   19 fps=0.6 q=-0.0 size=    1792kB time=00:00:00.91 bitrate=16131.9kbits/s speed=0.0293x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0032.png' for reading
+[file @ 000001ddee4bc700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 654554 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2078 image at pos (0;1430) [area:4960x3508]
+frame=   20 fps=0.6 q=-0.0 size=    1792kB time=00:00:00.96 bitrate=15291.7kbits/s speed=0.0297x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0033.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 654554 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2159 image at pos (0;1349) [area:4960x3508]
+frame=   21 fps=0.6 q=-0.0 size=    1792kB time=00:00:01.01 bitrate=14534.7kbits/s speed=0.0291x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0034.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 652493 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2159 image at pos (0;1349) [area:4960x3508]
+frame=   22 fps=0.6 q=-0.0 size=    2048kB time=00:00:01.06 bitrate=15827.6kbits/s speed=0.029x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0035.png' for reading
+[file @ 000001ddee4bd100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 652493 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2080 image at pos (0;1428) [area:4960x3508]
+frame=   23 fps=0.6 q=-0.0 size=    2048kB time=00:00:01.11 bitrate=15114.6kbits/s speed=0.0287x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0036.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 652734 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2080 image at pos (0;1428) [area:4960x3508]
+frame=   24 fps=0.6 q=-0.0 size=    2304kB time=00:00:01.16 bitrate=16271.0kbits/s speed=0.0286x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0037.png' for reading
+[file @ 000001ddee4bce00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6300] Statistics: 652734 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2049 image at pos (0;1459) [area:4960x3508]
+frame=   25 fps=0.6 q=-0.0 size=    2304kB time=00:00:01.21 bitrate=15598.7kbits/s speed=0.0283x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0038.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 652680 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2049 image at pos (0;1459) [area:4960x3508]
+frame=   26 fps=0.6 q=-0.0 size=    2560kB time=00:00:01.26 bitrate=16644.1kbits/s speed=0.0281x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0039.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 652680 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2106 image at pos (0;1402) [area:4960x3508]
+frame=   27 fps=0.6 q=-0.0 size=    2560kB time=00:00:01.31 bitrate=16008.8kbits/s speed=0.0283x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0040.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 656617 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2106 image at pos (0;1402) [area:4960x3508]
+frame=   28 fps=0.6 q=-0.0 size=    2560kB time=00:00:01.36 bitrate=15420.2kbits/s speed=0.0285x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0041.png' for reading
+[file @ 000001ddee4bd200] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 656617 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2048 image at pos (0;1460) [area:4960x3508]
+frame=   29 fps=0.6 q=-0.0 size=    2816kB time=00:00:01.41 bitrate=16360.8kbits/s speed=0.0286x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0042.png' for reading
+[file @ 000001ddee4bd300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6300] Statistics: 666155 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2048 image at pos (0;1460) [area:4960x3508]
+frame=   30 fps=0.6 q=-0.0 size=    2816kB time=00:00:01.46 bitrate=15800.5kbits/s speed=0.0288x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0043.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 666155 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2107 image at pos (0;1401) [area:4960x3508]
+frame=   31 fps=0.6 q=-0.0 size=    3072kB time=00:00:01.51 bitrate=16666.1kbits/s speed=0.0291x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0044.png' for reading
+[file @ 000001ddee4bce00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 664871 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2107 image at pos (0;1401) [area:4960x3508]
+frame=   32 fps=0.6 q=-0.0 size=    3072kB time=00:00:01.56 bitrate=16131.9kbits/s speed=0.0293x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0045.png' for reading
+[file @ 000001ddee4bce00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 664871 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2151 image at pos (0;1357) [area:4960x3508]
+frame=   33 fps=0.6 q=-0.0 size=    3072kB time=00:00:01.61 bitrate=15630.9kbits/s speed=0.0295x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0046.png' for reading
+[file @ 000001ddee4bd300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 662058 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2151 image at pos (0;1357) [area:4960x3508]
+frame=   34 fps=0.6 q=-0.0 size=    3328kB time=00:00:01.66 bitrate=16423.5kbits/s speed=0.0297x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0047.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 662058 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2220 image at pos (0;1288) [area:4960x3508]
+frame=   35 fps=0.6 q=-0.0 size=    3328kB time=00:00:01.71 bitrate=15943.3kbits/s speed=0.0298x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0048.png' for reading
+[file @ 000001ddee4bba00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 657983 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2220 image at pos (0;1288) [area:4960x3508]
+frame=   36 fps=0.6 q=-0.0 size=    3584kB time=00:00:01.76 bitrate=16681.9kbits/s speed=0.03x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0049.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 657983 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2283 image at pos (0;1225) [area:4960x3508]
+frame=   37 fps=0.6 q=-0.0 size=    3584kB time=00:00:01.81 bitrate=16221.1kbits/s speed=0.0302x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0050.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5f00] Statistics: 653180 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2283 image at pos (0;1225) [area:4960x3508]
+frame=   38 fps=0.6 q=-0.0 size=    3584kB time=00:00:01.86 bitrate=15785.0kbits/s speed=0.0303x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0051.png' for reading
+[file @ 000001ddee4bc900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5dc0] Statistics: 653180 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2359 image at pos (0;1149) [area:4960x3508]
+frame=   39 fps=0.6 q=-0.0 size=    3840kB time=00:00:01.91 bitrate=16469.8kbits/s speed=0.0304x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0052.png' for reading
+[file @ 000001ddee4bba00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5f00] Statistics: 652745 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2359 image at pos (0;1149) [area:4960x3508]
+frame=   40 fps=0.6 q=-0.0 size=    3840kB time=00:00:01.96 bitrate=16049.6kbits/s speed=0.0304x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0053.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 652745 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2465 image at pos (0;1043) [area:4960x3508]
+frame=   41 fps=0.6 q=-0.0 size=    4096kB time=00:00:02.01 bitrate=16693.7kbits/s speed=0.0303x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0054.png' for reading
+[file @ 000001ddee4bc900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb66c0] Statistics: 648696 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2465 image at pos (0;1043) [area:4960x3508]
+frame=   42 fps=0.6 q=-0.0 size=    4096kB time=00:00:02.06 bitrate=16288.6kbits/s speed=0.0304x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0055.png' for reading
+[file @ 000001ddee4bcf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb66c0] Statistics: 648696 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2618 image at pos (0;890) [area:4960x3508]
+frame=   43 fps=0.6 q=-0.0 size=    4096kB time=00:00:02.11 bitrate=15902.6kbits/s speed=0.0305x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0056.png' for reading
+[file @ 000001ddee4bc900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5dc0] Statistics: 647234 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2618 image at pos (0;890) [area:4960x3508]
+frame=   44 fps=0.6 q=-0.0 size=    4352kB time=00:00:02.16 bitrate=16505.4kbits/s speed=0.0306x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0057.png' for reading
+[file @ 000001ddee4bd200] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 647234 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2622 image at pos (0;886) [area:4960x3508]
+frame=   45 fps=0.6 q=-0.0 size=    4352kB time=00:00:02.21 bitrate=16131.9kbits/s speed=0.0307x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0058.png' for reading
+[file @ 000001ddee4bc700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 646216 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2622 image at pos (0;886) [area:4960x3508]
+frame=   46 fps=0.6 q=-0.0 size=    4608kB time=00:00:02.26 bitrate=16703.0kbits/s speed=0.0308x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0059.png' for reading
+[file @ 000001ddee4bce00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb66c0] Statistics: 646216 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2559 image at pos (0;949) [area:4960x3508]
+frame=   47 fps=0.6 q=-0.0 size=    4608kB time=00:00:02.31 bitrate=16341.4kbits/s speed=0.0309x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0060.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5f00] Statistics: 643740 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2559 image at pos (0;949) [area:4960x3508]
+frame=   48 fps=0.6 q=-0.0 size=    4608kB time=00:00:02.36 bitrate=15995.2kbits/s speed=0.031x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0061.png' for reading
+[file @ 000001ddee4bc300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 643740 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2522 image at pos (0;986) [area:4960x3508]
+frame=   49 fps=0.6 q=-0.0 size=    4864kB time=00:00:02.41 bitrate=16533.6kbits/s speed=0.0311x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0062.png' for reading
+[file @ 000001ddee4bd300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6300] Statistics: 642222 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2522 image at pos (0;986) [area:4960x3508]
+frame=   50 fps=0.6 q=-0.0 size=    4864kB time=00:00:02.46 bitrate=16197.5kbits/s speed=0.0312x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0063.png' for reading
+[file @ 000001ddee4bb600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb66c0] Statistics: 642222 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2542 image at pos (0;966) [area:4960x3508]
+frame=   51 fps=0.6 q=-0.0 size=    5120kB time=00:00:02.51 bitrate=16710.4kbits/s speed=0.0312x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0064.png' for reading
+[file @ 000001ddee4bcf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 640609 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2542 image at pos (0;966) [area:4960x3508]
+frame=   52 fps=0.6 q=-0.0 size=    5120kB time=00:00:02.56 bitrate=16384.0kbits/s speed=0.0312x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0065.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5dc0] Statistics: 640609 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2490 image at pos (0;1018) [area:4960x3508]
+frame=   53 fps=0.6 q=-0.0 size=    5376kB time=00:00:02.61 bitrate=16873.6kbits/s speed=0.0313x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0066.png' for reading
+[file @ 000001ddee4bcf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5dc0] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2490 image at pos (0;1018) [area:4960x3508]
+frame=   54 fps=0.6 q=-0.0 size=    5376kB time=00:00:02.66 bitrate=16556.5kbits/s speed=0.0312x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0067.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2511 image at pos (0;997) [area:4960x3508]
+frame=   55 fps=0.6 q=-0.0 size=    5376kB time=00:00:02.71 bitrate=16251.0kbits/s speed=0.0312x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0068.png' for reading
+[file @ 000001ddee4bb600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb66c0] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2511 image at pos (0;997) [area:4960x3508]
+frame=   56 fps=0.6 q=-0.0 size=    5632kB time=00:00:02.76 bitrate=16716.4kbits/s speed=0.0313x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0069.png' for reading
+[file @ 000001ddee4bb900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2531 image at pos (0;977) [area:4960x3508]
+frame=   57 fps=0.6 q=-0.0 size=    5632kB time=00:00:02.81 bitrate=16419.0kbits/s speed=0.0313x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0070.png' for reading
+[file @ 000001ddee4bcf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2531 image at pos (0;977) [area:4960x3508]
+frame=   58 fps=0.6 q=-0.0 size=    5888kB time=00:00:02.86 bitrate=16865.2kbits/s speed=0.0314x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0071.png' for reading
+[file @ 000001ddee4bb900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2557 image at pos (0;951) [area:4960x3508]
+frame=   59 fps=0.6 q=-0.0 size=    5888kB time=00:00:02.91 bitrate=16575.4kbits/s speed=0.0314x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0072.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6300] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2557 image at pos (0;951) [area:4960x3508]
+frame=   60 fps=0.6 q=-0.0 size=    5888kB time=00:00:02.96 bitrate=16295.4kbits/s speed=0.0315x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0073.png' for reading
+[file @ 000001ddee4bb800] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2563 image at pos (0;945) [area:4960x3508]
+frame=   61 fps=0.6 q=-0.0 size=    6144kB time=00:00:03.01 bitrate=16721.5kbits/s speed=0.0315x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0074.png' for reading
+[file @ 000001ddee4bbf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5c40] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2563 image at pos (0;945) [area:4960x3508]
+frame=   62 fps=0.6 q=-0.0 size=    6144kB time=00:00:03.06 bitrate=16448.3kbits/s speed=0.0315x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0075.png' for reading
+[file @ 000001ddee4bd300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5c40] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2577 image at pos (0;931) [area:4960x3508]
+frame=   63 fps=0.6 q=-0.0 size=    6400kB time=00:00:03.11 bitrate=16858.1kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0076.png' for reading
+[file @ 000001ddee4bb700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2577 image at pos (0;931) [area:4960x3508]
+frame=   64 fps=0.6 q=-0.0 size=    6400kB time=00:00:03.16 bitrate=16591.4kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0077.png' for reading
+[file @ 000001ddee4bbf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5f00] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2579 image at pos (0;929) [area:4960x3508]
+frame=   65 fps=0.6 q=-0.0 size=    6400kB time=00:00:03.21 bitrate=16333.0kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0078.png' for reading
+[file @ 000001ddee4bbe00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6580] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x2579 image at pos (0;929) [area:4960x3508]
+frame=   66 fps=0.6 q=-0.0 size=    6656kB time=00:00:03.26 bitrate=16725.8kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0079.png' for reading
+[file @ 000001ddee4bbe00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6180] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   67 fps=0.6 q=-0.0 size=    6656kB time=00:00:03.31 bitrate=16473.1kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0080.png' for reading
+[file @ 000001ddee4bc900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   68 fps=0.6 q=-0.0 size=    6912kB time=00:00:03.36 bitrate=16852.1kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0081.png' for reading
+[file @ 000001ddee4bcf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   69 fps=0.6 q=-0.0 size=    6912kB time=00:00:03.41 bitrate=16605.0kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0082.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   70 fps=0.6 q=-0.0 size=    6912kB time=00:00:03.46 bitrate=16365.1kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0083.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   71 fps=0.6 q=-0.0 size=    7168kB time=00:00:03.51 bitrate=16729.4kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0084.png' for reading
+[file @ 000001ddee4bce00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   72 fps=0.6 q=-0.0 size=    7168kB time=00:00:03.56 bitrate=16494.5kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0085.png' for reading
+[file @ 000001ddee4bc900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6040] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   73 fps=0.6 q=-0.0 size=    7168kB time=00:00:03.61 bitrate=16266.0kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0086.png' for reading
+[file @ 000001ddee4bba00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6300] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   74 fps=0.6 q=-0.0 size=    7424kB time=00:00:03.66 bitrate=16616.8kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0087.png' for reading
+[file @ 000001ddee4bc600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb6440] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   75 fps=0.6 q=-0.0 size=    7424kB time=00:00:03.71 bitrate=16392.8kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0088.png' for reading
+[file @ 000001ddee4bca00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb59c0] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   76 fps=0.6 q=-0.0 size=    7680kB time=00:00:03.76 bitrate=16732.6kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0089.png' for reading
+[file @ 000001ddee4bbc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5b00] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   77 fps=0.6 q=-0.0 size=    7680kB time=00:00:03.81 bitrate=16513.0kbits/s speed=0.0316x    [image2 @ 000001dde7f3b800] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0090.png' for reading
+[file @ 000001ddee4bc900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001dde9eb5c40] Statistics: 640083 bytes read, 0 seeks
+[gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   78 fps=0.6 q=-0.0 size=    7680kB time=00:00:03.86 bitrate=16299.1kbits/s speed=0.0317x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   79 fps=0.6 q=-0.0 size=    7936kB time=00:00:03.91 bitrate=16627.0kbits/s speed=0.0317x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   80 fps=0.6 q=-0.0 size=    7936kB time=00:00:03.96 bitrate=16417.1kbits/s speed=0.0318x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   81 fps=0.6 q=-0.0 size=    8192kB time=00:00:04.01 bitrate=16735.4kbits/s speed=0.0317x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   82 fps=0.6 q=-0.0 size=    8192kB time=00:00:04.06 bitrate=16529.3kbits/s speed=0.0318x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   83 fps=0.6 q=-0.0 size=    8192kB time=00:00:04.11 bitrate=16328.2kbits/s speed=0.0317x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   84 fps=0.6 q=-0.0 size=    8448kB time=00:00:04.16 bitrate=16636.1kbits/s speed=0.0318x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   85 fps=0.6 q=-0.0 size=    8448kB time=00:00:04.21 bitrate=16438.5kbits/s speed=0.0318x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   86 fps=0.6 q=-0.0 size=    8704kB time=00:00:04.26 bitrate=16737.8kbits/s speed=0.0319x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   87 fps=0.6 q=-0.0 size=    8704kB time=00:00:04.31 bitrate=16543.7kbits/s speed=0.032x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   88 fps=0.6 q=-0.0 size=    8704kB time=00:00:04.36 bitrate=16353.9kbits/s speed=0.032x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   89 fps=0.6 q=-0.0 size=    8960kB time=00:00:04.41 bitrate=16644.1kbits/s speed=0.0321x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   90 fps=0.6 q=-0.0 size=    8960kB time=00:00:04.46 bitrate=16457.5kbits/s speed=0.0322x    [gif @ 000001dde7f41e80] 4864x1589 image at pos (0;1919) [area:4960x3508]
+frame=   91 fps=0.6 q=-0.0 size=    8960kB time=00:00:04.51 bitrate=16275.0kbits/s speed=0.0321x    [Parsed_paletteuse_0 @ 000001ddee4bbb00] [framesync @ 000001ddee8ec248] Sync level 0
+frame=   91 fps=0.6 q=-0.0 size=    8960kB time=00:00:04.51 bitrate=16275.0kbits/s speed=0.0318x    [out_0_0 @ 000001ddee4bc200] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   91 fps=0.6 q=-0.0 Lsize=    9304kB time=00:00:04.51 bitrate=16900.5kbits/s speed=0.0318x    
+[AVIOContext @ 000001dde7f3b540] Statistics: 0 seeks, 93 writeouts
+video:9304kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000210%
+Input file #0 (D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png):
+  Input stream #0:0 (video): 91 packets read (59217533 bytes); 91 frames decoded; 
+  Total: 91 packets (59217533 bytes) demuxed
+Input file #1 (D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png):
+  Input stream #1:0 (video): 1 packets read (410 bytes); 1 frames decoded; 
+  Total: 1 packets (410 bytes) demuxed
+Output file #0 (D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/design1.gif):
+  Output stream #0:0 (video): 91 frames encoded; 91 packets muxed (9527621 bytes); 
+  Total: 91 packets (9527621 bytes) muxed
+92 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001dde7f43500] Statistics: 0 seeks, 37 writeouts
+[AVIOContext @ 000001dde9d5f500] Statistics: 410 bytes read, 0 seeks

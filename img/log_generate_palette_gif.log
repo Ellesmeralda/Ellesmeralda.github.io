@@ -1,0 +1,539 @@
+ffmpeg version 4.2.2 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20200122
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Nathaelle/AppData/Local/Temp/KritaFFmpegProgress.DTQRBd'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '20'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Nathaelle/AppData/Local/Temp/KritaFFmpegProgress.DTQRBd.
+[file @ 000001e2e239aa00] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 20.
+Successfully parsed a group of options.
+Opening an input file: D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png.
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0000.png' for reading
+[file @ 000001e2e23dec40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e23e6e00] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0001.png' for reading
+[file @ 000001e2e23e7080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e23e7200] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0002.png' for reading
+[file @ 000001e2e23e7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e25adec0] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0003.png' for reading
+[file @ 000001e2e23e7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e264cf00] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0004.png' for reading
+[file @ 000001e2e23e7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e264d0c0] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0005.png' for reading
+[file @ 000001e2e23e7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e264d280] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0006.png' for reading
+[file @ 000001e2e23e7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e264d440] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0007.png' for reading
+[file @ 000001e2e23e7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e264d600] Statistics: 650753 bytes read, 0 seeks
+[image2 @ 000001e2e23db580] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png':
+  Duration: 00:00:03.64, start: 0.000000, bitrate: N/A
+    Stream #0:0, 8, 1/25: Video: png, 1 reference frame, rgba(pc), 4960x3508 [SAR 11811:11811 DAR 1240:877], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png.
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[graph 0 input from stream 0:0 @ 000001e2e264d040] Setting 'video_size' to value '4960x3508'
+[graph 0 input from stream 0:0 @ 000001e2e264d040] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001e2e264d040] Setting 'time_base' to value '1/20'
+[graph 0 input from stream 0:0 @ 000001e2e264d040] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000001e2e264d040] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 000001e2e264d040] Setting 'frame_rate' to value '20/1'
+[graph 0 input from stream 0:0 @ 000001e2e264d040] w:4960 h:3508 pixfmt:rgba tb:1/20 fr:20/1 sar:11811/11811 sws_param:flags=2
+[format @ 000001e2e6c7e040] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 000001e2e6c7e940] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000001e2e6c7e940] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 000001e2e25ade40] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 000001e2e2422180] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 000001e2e2422180] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000001e2e6c7e040] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 000001e2e23e7080] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 000001e2e2422180] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 000001e2e245c4c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001e2e6c7e940] w:4960 h:3508 fmt:rgba sar:11811/11811 -> w:4960 h:3508 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 000001e2e6caa8c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001e2e2422180] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0, 0, 1/20: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 20 fps, 20 tbn, 20 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0008.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 650753 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0009.png' for reading
+[file @ 000001e2e2423480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456740] Statistics: 650753 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0010.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455500] Statistics: 650753 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0011.png' for reading
+[file @ 000001e2e2422980] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455640] Statistics: 650753 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0012.png' for reading
+[file @ 000001e2e2422280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455900] Statistics: 653923 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0013.png' for reading
+[file @ 000001e2e2423480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456a00] Statistics: 653923 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0014.png' for reading
+[file @ 000001e2e2423280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456200] Statistics: 658570 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0015.png' for reading
+[file @ 000001e2e2422a80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456200] Statistics: 658570 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0016.png' for reading
+[file @ 000001e2e2422e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455900] Statistics: 660883 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0017.png' for reading
+[file @ 000001e2e2423d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455900] Statistics: 660883 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0018.png' for reading
+[file @ 000001e2e2423280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 667816 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0019.png' for reading
+[file @ 000001e2e2423780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 667816 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0020.png' for reading
+[file @ 000001e2e2422e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455cc0] Statistics: 669063 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0021.png' for reading
+[file @ 000001e2e2422780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455500] Statistics: 669063 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0022.png' for reading
+[file @ 000001e2e2422680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456380] Statistics: 663489 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0023.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 663489 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0024.png' for reading
+[file @ 000001e2e2422b80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456200] Statistics: 661737 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0025.png' for reading
+[file @ 000001e2e2423180] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456c80] Statistics: 661737 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0026.png' for reading
+[file @ 000001e2e2423e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455640] Statistics: 658131 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0027.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455a40] Statistics: 658131 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0028.png' for reading
+[file @ 000001e2e2423d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 659498 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0029.png' for reading
+[file @ 000001e2e2423380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455f80] Statistics: 659498 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0030.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 655314 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0031.png' for reading
+[file @ 000001e2e2422580] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24564c0] Statistics: 655314 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0032.png' for reading
+[file @ 000001e2e2423e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 654554 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0033.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 654554 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0034.png' for reading
+[file @ 000001e2e2422780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2457080] Statistics: 652493 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0035.png' for reading
+[file @ 000001e2e2422c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 652493 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0036.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455a40] Statistics: 652734 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0037.png' for reading
+[file @ 000001e2e2423b80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 652734 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0038.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456f40] Statistics: 652680 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0039.png' for reading
+[file @ 000001e2e2423e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455b80] Statistics: 652680 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0040.png' for reading
+[file @ 000001e2e2423880] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455640] Statistics: 656617 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0041.png' for reading
+[file @ 000001e2e2423580] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456740] Statistics: 656617 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0042.png' for reading
+[file @ 000001e2e2422f80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456f40] Statistics: 666155 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0043.png' for reading
+[file @ 000001e2e2422280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24568c0] Statistics: 666155 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0044.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2457340] Statistics: 664871 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0045.png' for reading
+[file @ 000001e2e2423380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 664871 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0046.png' for reading
+[file @ 000001e2e2423c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2457340] Statistics: 662058 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0047.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456740] Statistics: 662058 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0048.png' for reading
+[file @ 000001e2e2423080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24564c0] Statistics: 657983 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0049.png' for reading
+[file @ 000001e2e2422380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455f80] Statistics: 657983 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0050.png' for reading
+[file @ 000001e2e2423080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455500] Statistics: 653180 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0051.png' for reading
+[file @ 000001e2e2422680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456200] Statistics: 653180 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0052.png' for reading
+[file @ 000001e2e2423d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456600] Statistics: 652745 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0053.png' for reading
+[file @ 000001e2e2422980] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455f80] Statistics: 652745 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0054.png' for reading
+[file @ 000001e2e2423c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 648696 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0055.png' for reading
+[file @ 000001e2e2422380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 648696 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0056.png' for reading
+[file @ 000001e2e2422c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 647234 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0057.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455a40] Statistics: 647234 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0058.png' for reading
+[file @ 000001e2e2423480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456b40] Statistics: 646216 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0059.png' for reading
+[file @ 000001e2e2423c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 646216 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0060.png' for reading
+[file @ 000001e2e2423680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456200] Statistics: 643740 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0061.png' for reading
+[file @ 000001e2e2422280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 643740 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0062.png' for reading
+[file @ 000001e2e2422c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456e00] Statistics: 642222 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0063.png' for reading
+[file @ 000001e2e2423f80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24568c0] Statistics: 642222 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0064.png' for reading
+[file @ 000001e2e2423480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456c80] Statistics: 640609 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0065.png' for reading
+[file @ 000001e2e2423180] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455500] Statistics: 640609 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0066.png' for reading
+[file @ 000001e2e2422e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0067.png' for reading
+[file @ 000001e2e2422580] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24564c0] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0068.png' for reading
+[file @ 000001e2e2423780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0069.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0070.png' for reading
+[file @ 000001e2e2423980] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456740] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0071.png' for reading
+[file @ 000001e2e2422280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456f40] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0072.png' for reading
+[file @ 000001e2e2422f80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455900] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0073.png' for reading
+[file @ 000001e2e2423380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455f80] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0074.png' for reading
+[file @ 000001e2e2422d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455900] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0075.png' for reading
+[file @ 000001e2e2422980] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0076.png' for reading
+[file @ 000001e2e2422980] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455640] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0077.png' for reading
+[file @ 000001e2e2423580] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455e40] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0078.png' for reading
+[file @ 000001e2e2423080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455a40] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0079.png' for reading
+[file @ 000001e2e2422b80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456e00] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0080.png' for reading
+[file @ 000001e2e2423080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455500] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0081.png' for reading
+[file @ 000001e2e2423880] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24560c0] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0082.png' for reading
+[file @ 000001e2e2422380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455f80] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0083.png' for reading
+[file @ 000001e2e2423c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0084.png' for reading
+[file @ 000001e2e2422380] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2456a00] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0085.png' for reading
+[file @ 000001e2e2422c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0086.png' for reading
+[file @ 000001e2e2423a80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455a40] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0087.png' for reading
+[file @ 000001e2e2423b80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e24571c0] Statistics: 640083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0088.png' for reading
+[file @ 000001e2e2422480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455780] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0089.png' for reading
+[file @ 000001e2e2423e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455b80] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e2e23db580] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame0090.png' for reading
+[file @ 000001e2e2423880] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2455900] Statistics: 640083 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 1 times
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 1 times
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[Parsed_palettegen_0 @ 000001e2e25ade40] 255(+1) colors generated out of 2127 colors; ratio=0.119887
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF1B00
+    Last message repeated 11 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF1E00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF1F00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF2000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF2100
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF2200
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF2300
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF2500
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF2600
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF3000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF4700
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF4800
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF4E00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF4F00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5100
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5400
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5500
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5A00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5B00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5C00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5D00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF5E00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6400
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6600
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6700
+    Last message repeated 8 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6800
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6900
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6A00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6B00
+    Last message repeated 1 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6C00
+    Last message repeated 1 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF6D00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7100
+    Last message repeated 1 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7400
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7500
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7600
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7700
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7A00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7C00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7D00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7E00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF7F00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8200
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8700
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8B00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8C00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8D00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8E00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF8F00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9100
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9500
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9600
+    Last message repeated 1 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9900
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9A00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9B00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9C00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9D00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9E00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFF9F00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFA100
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFA200
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFA300
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFA400
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFAC00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFAD00
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFAF00
+    Last message repeated 1 times
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFB000
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFB300
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFB400
+[Parsed_palettegen_0 @ 000001e2e25ade40] Dupped color: FFFFB500
+    Last message repeated 9 times
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 000001e2e23e3640] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 000001e2e6bfaf80] Opening 'D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png' for writing
+[file @ 000001e2e2422c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e2e2457080] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.05 bitrate=N/A speed=0.00104x    
+[AVIOContext @ 000001e2e23db440] Statistics: 0 seeks, 59 writeouts
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/frame%04d.png):
+  Input stream #0:0 (video): 91 packets read (59217533 bytes); 91 frames decoded; 
+  Total: 91 packets (59217533 bytes) demuxed
+Output file #0 (D:/ESADHaR 1DG/INFORMATIQUE/Ellesmeralda.github.io/img/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (410 bytes); 
+  Total: 1 packets (410 bytes) muxed
+91 frames successfully decoded, 0 decoding errors
