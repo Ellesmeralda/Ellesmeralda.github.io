@@ -74,10 +74,13 @@ address {
   border-top: thin dotted
 }
 
-.tetes>img {
-  width: 50%;
-  left: 100px;
-  position: absolute;
+.linear-gradient {
+  background: linear-gradient(blue, white);
+}
+
+div {
+  width: 100%;
+  height: 10%;
 }
 
 .doublepage>img {
@@ -88,7 +91,7 @@ address {
 .doublepageitem {
   display: flex;
   flex-direction: row;
-  margin: 20px 0;
+  margin: 2px 0;
 }
 
 .typo {
